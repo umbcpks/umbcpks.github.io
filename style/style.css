@@ -142,6 +142,7 @@ body {
  .footer-paragraph {
      margin-top: auto;
      margin-bottom: auto;
+      line-height: 20px;
 }
 
 /* Motto Effect */

@@ -1,8 +1,11 @@
 body {
-     font: 20px Montserrat, sans-serif;
+     font-family: 'GidoleRegular';
      line-height: 1.8px;
      color: #6a6a6a;
+     font-size: 20px;
      padding-top:60px:
+     font-weight: normal;
+     font-style: normal;
 }
  @media (max-width: 979px) {
      body {
@@ -33,6 +36,8 @@ body {
  .margin {
      margin-bottom: 30px;
 }
+
+/* Backgrounds */
  .bg-1 {
      font-weight: bold;
      background-color: #fff;
@@ -46,6 +51,16 @@ body {
  .bg-3 {
      background-color: #ac9552;
      color: #fefefa;
+}
+
+ .background-cool {
+     background-image: url("/photos/group.jpg");
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     min-height: 500px;
+  /* color: #6a6a6a; */
 }
 /* .bg-1-header {
      background-color: #DDD;
@@ -69,35 +84,45 @@ body {
      margin-left: auto;
      margin-right: auto;
 }
+
+
+/* Tables */
  .rush-table {
      font-size: 18px;
      margin-left: 150px;
      margin-right: 150px;
 }
+
  .panel-heading {
      color: #a9a9a9;
      border-top-left-radius: 25px;
      border-top-right-radius: 25px;
 }
+
  .panel {
      border-radius: 25px;
      opacity: 90%;
      transition: box-shadow 0.5s;
 }
+
  .panel-footer {
      color: #a9a9a9;
      border-bottom-left-radius: 25px;
      border-bottom-right-radius: 25px;
 }
+
  .panel:hover {
      box-shadow: 5px 0px 40px rgba(0,0,0, .2);
 }
+
  .grow {
      transition: all .2s ease-in-out;
 }
+
  .grow:hover {
      transform: scale(1.1);
 }
+
  .navbar {
      background-color: #ac9552;
      color: #fefefa;
@@ -117,4 +142,12 @@ body {
      margin-top: 15px;
      margin-bottom: 15px;
 }
- 
+
+/* Motto Effect */
+.fade-in-text {
+  animation: fadeIn 5s;
+}
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}

@@ -7,6 +7,9 @@ body {
      font-weight: normal;
      font-style: normal;
 }
+icon-bar {
+  background-color: #fefefa;
+}
  @media (max-width: 979px) {
      body {
          padding-top: 0px;
@@ -15,6 +18,7 @@ body {
  footer {
      background-color: #2f2f2f;
      color: #fff;
+     height: 20px;
 }
  h1 {
      font-weight: bolder;
@@ -138,10 +142,16 @@ body {
  .navbar-nav li a:hover {
      color: #DDDDDD !important;
 }
+
  .footer-paragraph {
-     margin-top: 20px;
-     margin-bottom: 20px;
+     margin-top: auto;
+     margin-bottom: auto;
 }
+
+ .footer-a {
+   text-decoration: none;
+   color:#fefefa;
+ }
 
 /* Motto Effect */
 .fade-in-text {
@@ -151,3 +161,19 @@ body {
   0% { opacity: 0; }
   100% { opacity: 1; }
 }
+
+/* Mottoes */
+/* #motto-fade::before {
+    content: "\"Brotherhood is more than skin deep.\"";
+    animation: animate 3s infinite;
+    padding-left: 10px;
+}
+
+@keyframes animate {
+
+    0% { content: "\"Brotherhood is more than skin deep.\""; }
+
+    50% { content: "\"Once a Phi Kap, always a Phi Kap.\""; }
+
+    75% { content: "\"Stellis Aequus Durando – Equal to the Stars in Endurance.\""; }
+} */
